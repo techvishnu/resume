@@ -1,0 +1,77 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the whole page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the page title */
+header h1 {
+    font-size: 24px;
+}
+
+/* Center the main content */
+main {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style the PDF viewer iframe */
+iframe#pdfViewer {
+    width: 100%;
+    max-width: 800px; /* Limit the maximum width */
+    height: 600px; /* Adjust the height as needed */
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    display: block;
+}
+
+/* Style the buttons container */
+.buttons {
+    margin-top: 20px;
+}
+
+/* Style the Share button */
+button#shareButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0074d9;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button#shareButton:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Style the Download button */
+a#downloadButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #33cc33;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+a#downloadButton:hover {
+    background-color: #2ca82c; /* Darker shade on hover */
+}
