@@ -14,5 +14,4 @@ Welcome to my online resume! This website hosts my CV in PDF format.
 2. Use the "Share" button to share this website with your network.
 3. Click "Download" to save a copy of my resume.
 
-## 📂 Project Structure
-
+Thank You :)
